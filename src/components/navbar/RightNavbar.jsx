@@ -30,9 +30,12 @@ const RightNavbar = () => {
             </div>
             <div className="mb-6">
                 <h3 className="font-semibold text-xl mb-4">Find Us On</h3>
-                <div className="border flex  border-gray-200  items-center py-4 rounded-t-lg gap-4 pl-4"><img src={facebook} alt="" /><p>Facebook</p></div>
-                <div className="border-x  border-gray-200 flex  items-center py-4 gap-4 pl-4"><img src={Twitter} alt="" /><p>Twitter</p></div>
-                <div className="border border-gray-200 flex items-center py-4 rounded-b-lg gap-4 pl-4"><img src={Instagram} alt="" /><p>Instagram</p></div>
+                <div className="hover:text-blue-500 hover:text-lg duration-500 border flex  border-gray-200  items-center py-4 rounded-t-lg gap-4 pl-4"><img src={facebook} alt="" />
+                <a href="https://www.facebook.com" target="_blank">Facebook</a></div>
+                <div className="hover:text-blue-500 hover:text-lg duration-500 border-x  border-gray-200 flex  items-center py-4 gap-4 pl-4"><img src={Twitter} alt="" />
+                <a href="https://www.x.com" target="_blank">Twitter</a></div>
+                <div className="hover:text-blue-500 hover:text-lg duration-500 border border-gray-200 flex items-center py-4 rounded-b-lg gap-4 pl-4"><img src={Instagram} alt="" />
+                <a href="https://www.instagram.com" target="_blank">Instagram</a></div>
             </div>
             <div className="bg-gray-200 p-4 rounded-lg">
                 <h3 className="font-semibold text-xl mb-4">Q-Zone</h3>
